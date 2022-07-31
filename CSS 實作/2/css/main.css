@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+}
+.divA {
+  width: 80vw;
+  height: 50vh;
+  background-color: #bbb;
+}
+.link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #090;
+  color: #fff;
+  margin: 20px;
+}

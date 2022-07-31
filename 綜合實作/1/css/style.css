@@ -1,0 +1,49 @@
+#AsusZF9 .section-main .title {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+#AsusZF9 .section-main .subtitle {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+#AsusZF9 .section-main .download-ics-btn {
+  opacity: 0; 
+  transition: opacity 1.5s;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    bottom: calc(0.07031px * var(--full-width));
+  }
+  50% {
+    bottom: calc(0.07031px * var(--full-width) + 10px);
+  }
+  100% {
+    bottom: calc(0.07031px * var(--full-width)) ;
+  }
+}
+
+#AsusZF9 .section-main .cities {
+  display: none;
+  opacity: 0;
+  transition: opacity 2s;
+  animation-name: flyin;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flyin {
+  0% {
+    bottom: calc(0.13281px * var(--full-width))
+  }
+  100% {
+    bottom: calc(0.13281px * var(--full-width) + 20px);
+  }
+}
+

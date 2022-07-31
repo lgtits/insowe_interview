@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+}
+.divA {
+  width: 80vw;
+  height: 50vh;
+  background-color: #bbb;
+}
+.divB {
+  max-width: 500px;
+}

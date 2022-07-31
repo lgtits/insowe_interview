@@ -1,0 +1,9 @@
+a:after {
+  content: '';
+  width: 80vw;
+  height: 50vh;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
