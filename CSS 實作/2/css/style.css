@@ -1,3 +1,7 @@
+div{
+  position: relative;
+}
+
 a:after {
   content: '';
   width: 80vw;
